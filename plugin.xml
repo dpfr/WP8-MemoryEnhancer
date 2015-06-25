@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Capptain integration plugin
+-->
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="fr.dpfr.wpmemoryenhancer"
+    version="0.0.1">
+    <name>WP8 Memory Enhancer</name>
+    <description>A small plugin setting memory cap to highest available</description>
+	
+	<license>MIT</license>
+
+    <!-- WP8 -->
+    <platform name="wp8">
+
+  		<!-- Adding capability -->
+		<config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/FunctionalCapabilities">
+			<FunctionalCapability Name="ID_FUNCCAP_EXTEND_MEM"/>
+		</config-file>
+
+    </platform>
+
+</plugin>
