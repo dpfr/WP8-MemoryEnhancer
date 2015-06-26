@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Capptain integration plugin
--->
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="fr.dpfr.wpmemoryenhancer" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="fr.dpfr.wpmemoryenhancer"
-    version="0.0.1">
-    <name>WP8 Memory Enhancer</name>
-    <description>A small plugin setting memory cap to highest available</description>
+    <name>WPMemoryEnhancer</name>
+	
+	<description>A small plugin setting memory cap to highest available</description>
 	
 	<license>MIT</license>
 
@@ -20,5 +16,5 @@
 		</config-file>
 
     </platform>
-
+	
 </plugin>

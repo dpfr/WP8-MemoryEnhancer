@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "name": "fr.dpfr.wpmemoryenhancer",
+    "cordova_name": "WPMemoryEnhancer",
+    "description": "A small plugin setting memory cap to highest available",
+    "license": "MIT",
+    "platforms": [
+        "wp8"
+    ],
+    "engines": []
+}

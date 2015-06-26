@@ -8,4 +8,4 @@ This plugin targets only the Windows Phone platform (the oldest one).
 ## INSTALLATION
 
 The plugin can be installed via the Cordova command line interface:
-cordova plugin add https://github.com/dpfr/WP8-MemoryEnhancer.git
+cordova plugin add fr.dpfr.wpmemoryenhancer
