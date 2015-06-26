@@ -1,11 +1,30 @@
 {
-    "version": "1.0.0",
-    "name": "fr.dpfr.wpmemoryenhancer",
-    "cordova_name": "WPMemoryEnhancer",
-    "description": "A small plugin setting memory cap to highest available",
-    "license": "MIT",
+  "version": "1.0.0",
+  "name": "fr.dpfr.wpmemoryenhancer",
+  "cordova_name": "WPMemoryEnhancer",
+  "description": "A small plugin setting memory cap to highest available",
+  "license": "MIT",
+  "platforms": [
+    "wp8"
+  ],
+  "engines": [],
+  "cordova": {
+    "id": "fr.dpfr.wpmemoryenhancer",
     "platforms": [
-        "wp8"
-    ],
-    "engines": []
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpfr/WP8-MemoryEnhancer.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-wp8"
+  ],
+  "author": "dpfr",
+  "bugs": {
+    "url": "https://github.com/dpfr/WP8-MemoryEnhancer/issues"
+  },
+  "homepage": "https://github.com/dpfr/WP8-MemoryEnhancer#readme"
 }
